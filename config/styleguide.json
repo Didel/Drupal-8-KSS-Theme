@@ -1,0 +1,20 @@
+{
+  "source": "./components",
+  "destination": "./styleguide",
+  "builder": "builder/twig",
+  "css": "../style.css",
+  "js": [],
+  "homepage": "../homepage.md",
+  "markup": false,
+  "placeholder": "[modifier class]",
+  "nav-depth": 3,
+  "title": "Drupal theme Style Guide",
+  "extend-drupal8": true,
+  "namespace": [
+    "atoms:components/atoms",
+    "molecules:components/molecules",
+    "organisms:components/organisms",
+    "templates:components/templates",
+    "pages:components/pages"
+  ]
+}

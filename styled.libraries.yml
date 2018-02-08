@@ -1,0 +1,5 @@
+styled:
+  version: 1.x
+  css:
+    theme:
+      style.css: {}

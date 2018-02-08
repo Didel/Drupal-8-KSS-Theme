@@ -1,0 +1,23 @@
+/*
+Button
+
+Your standard button suitable for clicking.
+
+:hover   - Highlights when hovering.
+
+Markup: button.html.twig
+
+Styleguide: Atoms.Button
+*/
+
+.button {
+  background: #dedede;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+
+  &:hover {
+    background: gray;
+    cursor: pointer;
+  }
+}

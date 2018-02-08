@@ -1,0 +1,10 @@
+<div class="dialog">
+    <div class="dialog__text">
+    {{ text }}
+    {% if text is empty %}
+        Default dialog text
+    {% endif %}
+    </div>
+
+    {% embed "@atoms/button/button.html.twig" with {'label': 'I agree', 'class': 'dialog__button'} %}{% endembed %}
+</div>

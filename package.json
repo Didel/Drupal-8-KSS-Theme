@@ -1,0 +1,23 @@
+{
+  "name": "styled",
+  "version": "1.0.0",
+  "description":
+    "This is a Drupal 8 basic theme setup, including a simple style guide.",
+  "scripts": {
+    "start": "npm run browser-sync & gulp watch",
+    "gulp": "gulp",
+    "browser-sync": "browser-sync start --config config/browser-sync.js"
+  },
+  "engines": {
+    "node": ">= 8.9"
+  },
+  "author": "Dimiter Geelen",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-glob": "^1.0.8",
+    "kss": "^3.0.0-beta.18"
+  }
+}

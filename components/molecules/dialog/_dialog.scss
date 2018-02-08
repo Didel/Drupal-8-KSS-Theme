@@ -1,0 +1,27 @@
+/*
+Dialog
+
+A simple dialog with text and a button.
+
+Markup: dialog.html.twig
+
+Styleguide: Molecules.Dialog
+*/
+
+.dialog {
+  display: block;
+  padding: 1em;
+  width: 250px;
+  border: 2px solid #cdcdcd;
+  border-radius: 5px;
+  color: #333333;
+
+  &__text {
+    text-align: center;
+  }
+
+  &__button {
+    display: block;
+    margin: 2em auto 0;
+  }
+}

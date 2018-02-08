@@ -1,0 +1,27 @@
+name: Styled
+type: theme
+description: A Drupal theme that includes a KSS-driven styleguide.
+core: 8.x
+libraries:
+  - styled/styled
+
+base theme: stable
+
+# This section is used by the contrib module, Component Libraries.
+# It allows you to reference .twig files not in your templates/ directory.
+component-libraries:
+  atoms:
+    paths:
+      - components/atoms
+  molecules:
+    paths:
+      - components/molecules
+  organisms:
+    paths:
+      - components/organisms
+  templates:
+    paths:
+      - components/templates
+  pages:
+    paths:
+      - components/pages
