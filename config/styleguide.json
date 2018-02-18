@@ -11,6 +11,7 @@
   "title": "Drupal theme Style Guide",
   "extend-drupal8": true,
   "namespace": [
+    "global:components/global",
     "atoms:components/atoms",
     "molecules:components/molecules",
     "organisms:components/organisms",

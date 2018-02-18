@@ -1,3 +1,5 @@
+@import "../../global/colors/_colors.scss";
+
 /*
 Dialog
 
@@ -12,9 +14,10 @@ Styleguide: Molecules.Dialog
   display: block;
   padding: 1em;
   width: 250px;
-  border: 2px solid #cdcdcd;
+  border: 2px solid $foreground-color;
   border-radius: 5px;
-  color: #333333;
+  color: $foreground-color;
+  background: $background-color;
 
   &__text {
     text-align: center;

@@ -14,12 +14,12 @@ gulp.task("sass", function() {
     .pipe(gulp.dest("./"));
 });
 
-gulp.task("watch", function() {
+gulp.task("watch", ["default"], function() {
   gulp.start("sass:watch", "twig:watch");
 });
 
 gulp.task("sass:watch", function() {
-  gulp.watch("./**/*.scss", ["sass"]);
+  gulp.watch("./**/*.scss", ["sass", "styleguide"]);
 });
 
 gulp.task("twig:watch", function() {

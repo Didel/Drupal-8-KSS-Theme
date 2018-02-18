@@ -1,0 +1,50 @@
+/*
+    Color
+
+    Your standard color.
+
+    .primary-color      - The main theme color.
+    .secondary-color    - The second theme color.
+    .tertiary-color     - The third theme color.
+    .foreground-color   - The foreground color, suitable for texts.
+    .background-color   - The background color, suitable for backgrounds.
+
+    Markup: <span class="color-swatch {{ modifier_class }}"></span>
+
+    Styleguide: Global.Colors
+*/
+$primary_color: #35a7ff;
+$secondary_color: #ff5964;
+$tertiary_color: #ffe74c;
+$foreground_color: #38618c;
+$background_color: #f6f6f6;
+
+.primary-color {
+  color: $primary_color;
+}
+
+.secondary-color {
+  color: $secondary_color;
+}
+
+.tertiary-color {
+  color: $tertiary_color;
+}
+
+.foreground-color {
+  color: $foreground_color;
+}
+
+.background-color {
+  color: $background_color;
+}
+
+$swatch_size: 5em;
+.color-swatch {
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px lightgrey;
+  width: 2 * $swatch_size;
+  height: $swatch_size;
+  background: currentColor;
+}
